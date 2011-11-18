@@ -1,16 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Insert title here</title>
+<title> Test on developing </title>
+
+<script type="text/javascript" src="../lib/jquery-1.7.min.js"></script>
+<script type="text/javascript" src="../js/moving.div.component.js"></script>
+
 </head>
 <body>
-	<div id="area1">
+	<div id="area1" >
+		<div style="height: 200px; background-color:blue;">
+		</div>
 	</div>
-	<div id="area2">
+	<div id="area2" > 
+		<div style="height: 200px; background-color:yellow;">
+		</div>
 	</div>
 	<div id="area3">
+		<div style="height: 200px; background-color:black;">
+		</div>
 	</div>
 	<div id="area4">
+		<div style="height: 200px; background-color:red;">
+		</div>
 	</div>
+	
+	<div>
+		<p>
+		for test <br/>
+		</p>
+	</div>
+	
+	<script type="text/javascript">
+		movingDivComponent.init('area1', 'area2', 'area3', 'area4');
+	</script>
 </body>
 </html>
