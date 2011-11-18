@@ -19,11 +19,10 @@
 			divEl.setAttribute('data-column', column_id);
 			
 			var style = 'height:'+height+';';
-			style += 'border:1px solid red;';
+			style += 'border:1px solid white;';
+			style += 'background-color: black;';
 			style += 'cursor:move';
 			divEl.setAttribute('style',  style);
-			
-			divEl.innerHTML = "Drag this area";
 			
 			return divEl;
 		},
