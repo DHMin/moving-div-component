@@ -1,3 +1,11 @@
 this is for colum moving div componet.
 
-this is motivated by www.tweetdeck.com
+this is based on jQuery
+
+How to use this
+ * add Div tags with id
+ * after DOM ready or end of body, insert
+   movingDivComponent.init( ... );
+   @params : div's id
+ * moving.div.component.js will change your DIV elements
+   to apply moving event to each DIVs
